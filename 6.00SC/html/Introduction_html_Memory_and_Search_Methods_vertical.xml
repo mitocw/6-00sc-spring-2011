@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Graphic representation of sorting a list for efficient search." src="/static/unit-1/lecture-9-memory-and-search-methods/ses-09.jpg"/>
+        </td>
+        <td>
+          <p>This lecture discusses how indirection is used to provide an efficient implementation of Python lists and other data structures. It also presents and analyzes the efficiency of selection and merge sort.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight" href="#?w=535" rel="popup_name1">Lecture 9: Memory and Search Methods</a> (00:48:08)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><script type="text/javascript">
+
+//
+load_multiple_media_chapter('video1','embed1','player1','http://www.youtube.com/v/6wTuOMgTrU4', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-9-memory-and-search-methods', 'http://img.youtube.com/vi/6wTuOMgTrU4/0.jpg', 0,0, null);
+//
+
+</script><br/><p class="pop_margin_title">Lecture 9: Memory and Search Methods</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-9-memory-search-methods/id499270153?i=110101034" target="_blank">&gt; Download from iTunes U (MP4)</a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec09_300k.mp4" target="_blank">&gt; Download from Internet Archive (MP4)</a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What is indirection (in computing)?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1" style="margin-left: 35px;">
+    <p>Indirection is the ability to access something using a name or reference instead of the value itself.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>We know that a linear search works on all lists and is O(len(L)).  Can we sort a list in sub-linear time?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2" style="margin-left: 35px;">
+    <p>No, because we can't sort a list without looking at each element at least once.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>Can we even do it in linear time?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3" style="margin-left: 35px;">
+    <p>The answer is probably, no. But we can do it in O(n log n), where n is the length of the list.</p>
+    <p>&#xA0;</p>
+  </div>
+  <h2 class="subhead">Further Study</h2>
+  <p>These optional resources are provided for students that wish to explore this topic more fully.</p>
+  <h3 class="subsubhead">Readings</h3>
+  <ul class="arrow">
+    <li><a href="http://docs.python.org/library/sets.html">8.7. Sets&#x2014;Unordered collections of unique elements</a>. Python Standard Library.</li>
+  </ul>
+  <h3 class="subsubhead">Related Lectures</h3>
+  <ul class="arrow">
+    <li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/index.htm"><em>6.01SC Introduction to Electrical Engineering and Computer Science I</em></a>.
+    <ul><li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/unit-4-probability-and-planning/search-algorithms">Search Algorithms</a></li><li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011/unit-4-probability-and-planning/optimizing-a-search">Optimizing a search</a></li></ul>
+</li>
+    <li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2008"><em>6.006 Introduction to Algorithms</em></a>. 6.006 lectures assume a greater level of mathematical sophistication than does 6.00SC. Read the lecture notes on:
+    <ul><li>Binary search trees</li><li>Sorting</li><li>Searching</li></ul>
+</li>
+  </ul>
+</html>

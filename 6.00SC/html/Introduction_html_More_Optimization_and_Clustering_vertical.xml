@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Photograph of building blocks sorted by color." height="100" src="/static/unit-2/lecture-19-more-optimization-and-clustering/ses-19.jpg" width="100"/>
+        </td>
+        <td>
+          <p>This lecture continues to discuss optimization in the context of the knapsack problem, and talks about the difference between greedy approaches and optimal approaches. It then moves on to discuss supervised and unsupervised machine learning optimization problems. Most of the time is spent on clustering.</p>
+          <p class="instruction">
+            <em>Image courtesy of <a href="http://www.flickr.com/photos/stephenr/4151278461/">Squiggle</a> on Flickr.</em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight" href="#?w=535" rel="popup_name1">Lecture 19: More Optimization and Clustering</a> (00:49:43)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><script type="text/javascript">
+
+//
+load_multiple_media_chapter('video1','embed1','player1','http://www.youtube.com/v/miw2CiKp1r0', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-19-more-optimization-and-clustering', 'http://img.youtube.com/vi/miw2CiKp1r0/0.jpg', 0,0, null);
+//
+
+</script><br/><p class="pop_margin_title">Lecture 19: More Optimization and Clustering</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-19-more-optimization/id499270153?i=110101051" target="_blank">&gt; Download from iTunes U (MP4)</a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec19_300k.mp4" target="_blank">&gt; Download from Internet Archive (MP4)</a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What is machine learning?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1" style="margin-left: 35px;">
+    <p>"A scientific discipline that is concerned with the design and development of algorithms that allow computers to evolve behaviors based on empirical data." From <a href="http://en.wikipedia.org/wiki/Machine_learning">Wikipedia</a>.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is inductive inference?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2" style="margin-left: 35px;">
+    <p>The observation of examples that represent incomplete information about some statistical phenomenon in order to recognize complex patterns and make intelligent decisions.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is supervised learning?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3" style="margin-left: 35px;">
+    <p>Learning in which a label is associated with each example in a training set.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is unsupervised learning used for?</p>
+  <div class="reveal4" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle4" style="margin-left: 35px;">
+    <p>Uncovering hidden regularities or detecting anomalies in data.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is clustering?</p>
+  <div class="reveal5" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle5" style="margin-left: 35px;">
+    <p>The process of organizing objects into groups whose members are similar in some way.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is agglomerative clustering?</p>
+  <div class="reveal6" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle6" style="margin-left: 35px;">
+    <p>Clustering that merges clusters iteratively.</p>
+    <p>&#xA0;</p>
+  </div>
+</html>

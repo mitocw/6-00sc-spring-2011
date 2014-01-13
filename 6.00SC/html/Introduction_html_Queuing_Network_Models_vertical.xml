@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="ses-25.jpg" src="/static/unit-3/lecture-25-queuing-network-models/ses-25.jpg"/>
+        </td>
+        <td>
+          <p>This lecture introduces queuing network models and simulations. It also prepares students to read the code they are asked to study in preparation for the final exam.</p>
+          <p class="instruction">
+            <em>Image courtesy of <a href="http://www.flickr.com/photos/welovepandas/314186274/">welovepandas</a> on Flickr.</em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight" href="#?w=535" rel="popup_name1">Lecture 25: Queuing Network Models</a> (00:52:39)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><script type="text/javascript">
+
+//
+load_multiple_media_chapter('video1','embed1','player1','http://www.youtube.com/v/aqd0sR5rygk', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-3/lecture-25-queuing-network-models', 'http://img.youtube.com/vi/aqd0sR5rygk/0.jpg', 0,0, null);
+//
+
+</script><br/><p class="pop_margin_title">Lecture 25: Queuing Network Models</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-25-queuing-network/id499270153?i=110101039" target="_blank">&gt; Download from iTunes U (MP4)</a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec25_300k.mp4" target="_blank">&gt; Download from Internet Archive (MP4)</a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What is meant by queue discipline?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1">
+    <p>Queue discipline is the rule by which we select the next 'customer' to be served.  Changing the queue discipline can potentially reduce overall processing time.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What does FIFO stand for?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2">
+    <p>First in, first out: for example, standing in line.  It is also known as FCFS (first come, first served).</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What does LIFO stand for?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3">
+    <p>Last in, first out: for example, a stack.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What does SRPT stand for?</p>
+  <div class="reveal4" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle4">
+    <p>Shortest remaining processing time: this results in the shortest average wait time.</p>
+    <p>&#xA0;</p>
+  </div>
+</html>

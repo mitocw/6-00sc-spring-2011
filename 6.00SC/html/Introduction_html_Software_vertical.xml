@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <p>In 6.00, we will use the <a href="http://python.org/">Python programming language</a>. You'll also need an editor and/or development environment for writing and debugging your programs. In 6.00, we will be using <a href="http://www.python.org/idle/doc/idlemain.html">IDLE</a>, a programming environment specially designed for Python programming and included with the Python distribution. These programs are available for installation on your personal computers (see below).</p>
+  <h2 class="subhead">Why Python?</h2>
+  <p>A programming language is the tool we use to construct a sequence of instructions that will tell the computer what we want it to do. There are hundreds of programming languages in the world. Over the course of my career, I've taught programming classes using at least at least six different languages.</p>
+  <p>There is no best language (though I could nominate some candidates for worst). Different languages are better or worse for different kinds of applications. MATLAB, for example, is a great language for manipulating vectors and matrices. C is a good language for writing the programs that control data networks.</p>
+  <p>In this course, we will use Python. Python is a relatively recent addition to the universe of languages, and is still growing in popularity. I want to emphasize that this course is not about Python. You will certainly learn Python, and that's a good thing. What is much more important, however, is that you will learn how to write programs that solve problems, given a set of basic primitives, and ways of combining them into more complex elements, that you can then abstract into primitives. This skill can be transferred to many languages.</p>
+  <h2 class="subhead">Setting Up Python</h2>
+  <p>You can install the 6.00 software on your personal computer if your operating system is GNU/Linux, Windows (7/XP), or MacOS X. In all cases, you will need <a href="http://www.python.org/download/releases/2.5.4/">Python version 2.5.4</a> (any 2.5.x or 2.6.x version of Python will work, but 3.0 versions are NOT compatible). Below are direct links to the most common Python installers:</p>
+  <p><strong>Windows:</strong><br/>
+Download and install: <a href="http://www.python.org/ftp/python/2.5.4/python-2.5.4.msi">Windows Installer</a></p>
+  <p><strong>Mac OS X:</strong><br/>
+Download and install: <a href="http://www.python.org/ftp/python/2.5.4/python-2.5.4-macosx.dmg">Mac OS X Installer</a></p>
+  <p><span style="color: rgb(255, 0, 0);"><strong>Warning:</strong></span> On the Python homepage, the latest version available for download is actually 3.0. Do not install this! This version is not backwards compatible with the code that you'll be writing in this course (for example, you have to type print("test") instead of print "test"). Instead, be sure to download the version listed above.</p>
+  <h2 class="subhead">Using IDLE</h2>
+  <p>IDLE is the standard Python development environment. Its name is an acronym of "<strong>I</strong>ntegrated <strong>D</strong>eve<strong>L</strong>opment <strong>E</strong>nvironment". It works well on both Unix and Windows platforms.</p>
+  <p>It has a Python shell window, which gives you access to the Python interactive mode. It also has a file editor that lets you create and edit existing Python source files.</p>
+  <p>During the following discussion of IDLE's features, instead of passively reading along, you should start IDLE and try to replicate the actions.</p>
+  <p>You can type Python code directly into this shell, at the '&gt;&gt;&gt;' prompt. Whenever you enter a complete code fragment, it will be executed. For instance, typing:</p>
+  <p><span style="font-family: Courier New,Courier;">&gt;&gt;&gt; <span style="color: rgb(255, 153, 0);">print</span> </span><span style="color: rgb(51, 153, 102);"><span style="font-family: Courier New,Courier;">"hello world"</span></span><br/>
+and pressing Enter will cause the following to be displayed:</p>
+  <p>
+    <span style="color: rgb(0, 0, 255);">
+      <span style="font-family: Courier New,Courier;">hello world</span>
+    </span>
+  </p>
+  <p>IDLE can also be used as a calculator:</p>
+  <p>
+    <span style="font-family: Courier New,Courier;">&gt;&gt;&gt; </span>
+    <span style="color: rgb(0, 0, 255);">
+      <span style="font-family: Courier New,Courier;">4+4</span>
+    </span>
+    <br/>
+    <span style="font-family: Courier New,Courier;">8</span>
+  </p>
+  <p>Addition, subtraction, and multiplication operators are built into the Python language. This means you can use them right away. If you want to use a square root in your calculation, you need to <em>import</em> the <em>math</em> module. Do not worry about what it means right now; we will cover this later during the course. Below is an example of square root calculation:</p>
+  <p>
+    <span style="font-family: Courier New,Courier;">&gt;&gt;&gt; </span>
+    <span style="color: rgb(0, 0, 255);">
+      <span style="font-family: Courier New,Courier;">import math</span>
+    </span>
+    <br/>
+    <span style="font-family: Courier New,Courier;">&gt;&gt;&gt; </span>
+    <span style="color: rgb(0, 0, 255);">
+      <span style="font-family: Courier New,Courier;">math.sqrt(16)</span>
+    </span>
+    <br/>
+    <span style="font-family: Courier New,Courier;">4.0</span>
+  </p>
+  <p>Math module allows you to do a number of useful operations:</p>
+  <p>
+    <span style="font-family: Courier New,Courier;">&gt;&gt;&gt; </span>
+    <span style="color: rgb(0, 0, 255);">
+      <span style="font-family: Courier New,Courier;">import math</span>
+    </span>
+    <br/>
+    <span style="font-family: Courier New,Courier;">&gt;&gt;&gt; </span>
+    <span style="color: rgb(0, 0, 255);">
+      <span style="font-family: Courier New,Courier;">math.pow(3, 2)</span>
+    </span>
+    <br/>
+    <span style="font-family: Courier New,Courier;">9.0</span>
+    <br/>
+    <span style="font-family: Courier New,Courier;">&gt;&gt;&gt; </span>
+    <span style="color: rgb(0, 0, 255);">
+      <span style="font-family: Courier New,Courier;">math.cos( 0 )</span>
+    </span>
+    <br/>
+    <span style="font-family: Courier New,Courier;">1.0</span>
+  </p>
+  <p>Note that you only need to execute the import command once after you start IDLE.</p>
+  <p>
+    <strong>Exercises</strong>
+  </p>
+  <p>For additional practice, try using IDLE to calculate:</p>
+  <ol>
+    <li>23.0 to the 5th power</li>
+    <li>Positive root of the following equation:<br/>
+    34*x^2 + 68*x - 510<br/>
+    Recall:<br/>
+    a*x^2 + b*x + c<br/>
+    x1 = ( - b + sqrt ( b*b - 4*a*c ) ) / ( 2*a )</li>
+  </ol>
+</html>

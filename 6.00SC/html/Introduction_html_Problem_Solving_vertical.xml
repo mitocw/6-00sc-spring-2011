@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Image of mathematical operators, (+ - / x)." src="/static/unit-1/lecture-3-problem-solving/ses-03.jpg"/>
+        </td>
+        <td>
+          <p>This lecture covers the use of iteration to build programs whose execution time depends upon the size of inputs.  It also introduces search problems and brute force and bisection for solving them.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight" href="#?w=535" rel="popup_name1">Lecture 3: Problem Solving</a> (00:47:56)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><script type="text/javascript">
+
+//
+load_multiple_media_chapter('video1','embed1','player1','http://www.youtube.com/v/ggxY20cXql8', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-3-problem-solving', 'http://img.youtube.com/vi/ggxY20cXql8/0.jpg', 0,0, null);
+//</script><br/><p class="pop_margin_title">Lecture 3: Problem Solving</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-3-problem-solving/id499270153?i=110101035" target="_blank">&gt; Download from iTunes U (MP4)</a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec03_300k.mp4" target="_blank">&gt; Download from Internet Archive (MP4)</a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What does it mean for a program to terminate?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1" style="margin-left: 35px;">
+    <p>Either the program will return a value, or throw an exception. A program that does not terminate runs indefinitely, typically because it's gotten stuck in a loop.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is a for loop?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2" style="margin-left: 35px;">
+    <p>A for loop takes some sort of iterable object (a list, tuple, or string) and performs its function once for each item in that object. Any function that depends on the input can have a different result at each step, since the input is the current item.</p>
+  </div>
+  <h2 class="subhead">Further Study</h2>
+  <p>These optional resources are provided for students that wish to explore this topic more fully.</p>
+  <h3 class="subsubhead">Readings</h3>
+  <ul class="arrow">
+    <li><a href="http://beastie.cs.ua.edu/cs150/book/index_14.html">Loops</a>. An Introduction to Python.</li>
+  </ul>
+</html>

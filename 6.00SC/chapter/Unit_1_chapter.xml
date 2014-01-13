@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<chapter display_name="Unit 1">
+  <sequential url_name="Unit_1_sequential"/>
+  <sequential url_name="Introduction_to_6_00_sequential"/>
+  <sequential url_name="Core_Elements_of_a_Program_sequential"/>
+  <sequential url_name="Problem_Solving_sequential"/>
+  <sequential url_name="Machine_Interpretation_of_a_Program_sequential"/>
+  <sequential url_name="Objects_in_Python_sequential"/>
+  <sequential url_name="Recursion_sequential"/>
+  <sequential url_name="Debugging_sequential"/>
+  <sequential url_name="Efficiency_and_Order_of_Growth_sequential"/>
+  <sequential url_name="Memory_and_Search_Methods_sequential"/>
+  <sequential url_name="Quiz_1_sequential"/>
+</chapter>

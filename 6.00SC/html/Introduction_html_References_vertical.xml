@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Textbooks</h2>
+  <p>A textbook for 6.00 is now available. The book and the course lectures parallel each other, though there is more detail in the book about some topics. The book is NOT required. We will not be referring to it in assignments or depending upon it to cover holes in the lectures.</p>
+  <p><a href="http://mitpress.mit.edu/books/introduction-computation-and-programming-using-python"><img alt="mp_logo.gif" border="0" height="12" src="/static/Syllabus/mp_logo.gif" style="vertical-align: middle;" width="86"/></a><a href="http://www.amazon.com/exec/obidos/ASIN/0262519631/ref=nosim/mitopencourse-20"><img alt="Amazon logo" border="0" src="http://ocw.mit.edu/images/a_logo_17.gif" style="vertical-align: middle;"/></a> Guttag, John. <em><a href="http://mitpress.mit.edu/books/introduction-computation-and-programming-using-python">Introduction to Computation and Programming Using Python</a></em>. MIT Press, 2013. ISBN: 9780262519632.</p>
+  <p>If you choose not to purchase this book, you will probably find it useful to buy or borrow another book that covers Python. You might check your local public library's resources, or search online for a free Python text, such as <a href="http://www.greenteapress.com/thinkpython/html/index.html"><em>How to Think Like a Computer Scientist</em></a> or <a href="http://beastie.cs.ua.edu/cs150/book/index.html"><em>An Introduction to Python</em></a>.</p>
+  <p>Other optional textbooks:</p>
+  <ul class="arrow">
+    <li><a href="http://www.amazon.com/exec/obidos/ASIN/1887902996/ref=nosim/mitopencourse-20"><img alt="Amazon logo" border="0" src="http://ocw.mit.edu/images/a_logo_17.gif" style="vertical-align: middle;"/></a> Zelle, John M. <em>Python Programming: An Introduction to Computer Science</em>. 1st ed. Franklin Beedle &amp; Associates, 2003. ISBN: 9781887902991. (Be sure to get the 1st edition, <strong>not</strong> the 2nd.)</li>
+    <li><a href="http://www.amazon.com/exec/obidos/ASIN/0073523372/ref=nosim/mitopencourse-20"><img alt="Amazon logo" border="0" src="http://ocw.mit.edu/images/a_logo_17.gif" style="vertical-align: middle;"/></a> Budd, Timothy. <em>Exploring Python</em>. McGraw-Hill Science, 2009. ISBN: 9780073523378.</li>
+    <li>Shaw, Zed A. <a href="http://learnpythonthehardway.org/book/"><em>Learn Python the Hard Way</em></a>. (Available to read on the web for free.  Also available as <a href="http://learnpythonthehardway.org/">PDF download, ePub download, or printed book</a> mailed to you, each at a low cost.</li>
+    <li>Swaroop, CH. <a href="http://www.ibiblio.org/swaroopch/byteofpython/read/"><em>A Byte of Python</em></a>.</li>
+    <li><a href="http://www.diveintopython.net/toc/index.html"><em>Dive into Python</em></a> by Mark Pilgrim</li>
+    <li><a href="http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html"><em>Code Like a Pythonista: Idiomatic Python</em></a> by David Goodger</li>
+    <li>The <a href="http://en.wikibooks.org/wiki/Python_Programming">Python Programming Wikibook</a> is not too bad. This is a work in progress, often minimal.</li>
+  </ul>
+  <h2 class="subhead">References (Python 2.5.4)</h2>
+  <ul class="arrow">
+    <li>
+      <a href="http://www.python.org/doc/2.5.4/">Python 2.5.4 Documentation</a>
+    </li>
+    <li>
+      <a href="http://www.python.org/doc/2.5.4/tut/tut.html">Python 2.5.4 Tutorial</a>
+    </li>
+    <li>
+      <a href="http://www.python.org/doc/2.5.4/ref/keywords.html">Python 2.5.4 Reserved Words</a>
+    </li>
+    <li><a href="http://michaelgoerz.net/refcards/#python25">Python 2.5 Quick Reference Card</a> by Michael Goerz</li>
+    <li>Guido van Rossum, the creator of Python, has written a <a href="http://www.python.org/dev/peps/pep-0008/">Python Style Guide</a> that contains layout and naming conventions for the Python language. These conventions will help you write code that is easily readable by others.</li>
+    <li>The <a href="http://www.addedbytes.com/cheat-sheets/python-cheat-sheet/">Python Cheat Sheet</a> is a handy one page guide covering commonly used Python methods.</li>
+  </ul>
+  <h2 class="subhead">Further Readings</h2>
+  <ul class="arrow">
+    <li>
+      <a href="http://docs.python.org/tutorial/floatingpoint.html#tut-fp-issues">Floating Point Arithmetic</a>
+    </li>
+    <li>
+      <a href="http://docs.python.org/library/string.html">Strings</a>
+    </li>
+    <li>
+      <a href="http://docs.python.org/tutorial/datastructures.html#tut-tuples">Tuples</a>
+    </li>
+    <li>
+      <a href="http://docs.python.org/tutorial/datastructures.html#more-on-lists">Lists</a>
+    </li>
+    <li>
+      <a href="http://docs.python.org/tutorial/datastructures.html#dictionaries">Dictionaries</a>
+    </li>
+    <li>Exceptions
+    <ul><li><a href="http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap11.html">Section 11.5</a> in <em>How to Think Like a Computer Scientist</em>
+</li><li>The <a href="http://docs.python.org/release/2.5.4/tut/node10.html">Exceptions</a> chapter in the Python Tutorial</li></ul>
+</li>
+    <li>Recursion
+    <ul><li>The <a href="http://beastie.cs.ua.edu/cs150/book/index_16.html">Recursion</a> chapter in <em>An Introduction to Python</em>
+</li><li><a href="http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html">Sections 4.9-4.11</a> in <em>How to Think Like a Computer Scientist</em>
+</li></ul>
+</li>
+  </ul>
+  <h2 class="subhead">Probability and Statistics for Computer Scientists</h2>
+  <ul class="arrow">
+    <li>Wikipedia article on <a href="http://en.wikipedia.org/wiki/Probability">Probability</a>
+</li>
+    <li><a href="http://www-stat.stanford.edu/~naras/jsm/NormalDensity/NormalDensity.html">Normal distribution</a> reference</li>
+    <li>Wikipedia article on the <a href="http://en.wikipedia.org/wiki/Confidence_interval">Confidence interval</a>
+</li>
+  </ul>
+  <h2 class="subhead">Simulation Methods</h2>
+  <ul class="arrow">
+    <li>Wikipedia article on the <a href="http://en.wikipedia.org/wiki/Monte_Carlo_method">Monte Carlo method</a>
+</li>
+    <li>
+      <a href="http://www.chem.uoa.gr/applets/AppletSailor/Appl_Sailor2.html">Random walks</a>
+    </li>
+    <li><a href="http://matplotlib.sourceforge.net/">Matplotlib/pylab</a> reference</li>
+  </ul>
+  <h2 class="subhead">Breadth-First and Depth-First Searches</h2>
+  <p>Although two of these are Wikipedia articles, these pages have a lot of information, including animated images showing you what nodes are chosen. Once you understand how both algorithms work, try writing out the order nodes are visited in another graph using both BFS and DFS.</p>
+  <ul class="arrow">
+    <li><a href="http://www.kirupa.com/developer/actionscript/depth_breadth_search.htm">Breadth-first and depth-first search</a> article from <a href="http://www.kirupa.com/">Kirupa.com</a>
+</li>
+    <li>Wikipedia article on <a href="http://en.wikipedia.org/wiki/Depth-first_search">Depth-first search</a>
+</li>
+    <li>Wikipedia article on <a href="http://en.wikipedia.org/wiki/Breadth-first_search">Breadth-first search</a>
+</li>
+  </ul>
+</html>

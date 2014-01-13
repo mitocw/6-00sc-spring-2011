@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Photograph of scissors cutting a credit card." height="100" src="/static/unit-1/lecture-4-machine-interpretation-of-a-program/ses-04.jpg" width="100"/>
+        </td>
+        <td>
+          <p>This lecture introduces the notion of decomposition and abstraction by specification.  It also covers Python modules, functions, parameters, and scoping. Finally, it uses the Python assert statement and type 'str'.</p>
+          <p class="instruction">
+            <em>Image courtesy of <a href="http://www.flickr.com/photos/consumerist/4406234952/">The Consumerist</a> on Flickr.</em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video1','embed1','player1','http://www.youtube.com/v/Mx0uXIBD-yA', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-4-machine-interpretation-of-a-program', 'http://img.youtube.com/vi/Mx0uXIBD-yA/0.jpg', 0,0, null);" rel="popup_name1">Lecture 4: Machine Interpretation of a Program</a> (00:50:18)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Lecture 4: Machine Interpretation of a Program</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-4-machine-interpretation/id499270153?i=110101059" target="_blank">&gt; Download from iTunes U (MP4)</a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec04_300k.mp4" target="_blank">&gt; Download from Internet Archive (MP4)</a></p></div>
+</li>
+  </ul>
+  <h3 class="subsubhead">Recitation Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video2','embed2','player2','http://www.youtube.com/v/nx6NnzIGrKE', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-4-machine-interpretation-of-a-program', 'http://img.youtube.com/vi/nx6NnzIGrKE/0.jpg', 0,0, null);" rel="popup_name2">Recitation 2: Loops, Tuples, Strings and Functions</a> (00:57:42)
+    <div class="popup_block" id="popup_name2"><div class="inline-video" id="video2"><div class="attention_message" id="embed2"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Recitation 2: Loops, Tuples, Strings and Functions</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/recitation-2-loops-tuples/id499270153?i=110101046" target="_blank"> &gt; Download from iTunes U (MP4) </a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_rec02_300k.mp4" target="_blank"> &gt; Download from Internet Archive (MP4) </a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What is decomposition?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1" style="margin-left: 35px;">
+    <p>Decomposition breaks a problem into self-contained, manageable parts.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is abstraction?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2" style="margin-left: 35px;">
+    <p>Abstraction allows us to ignore the details of a piece of code, and use it as a black box &#x2013; input x, get y.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is the difference between formal and actual parameters?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3" style="margin-left: 35px;">
+    <p>Formal parameters are the names of variables used inside a procedure; actual parameters (or arguments) are the values assigned to those names.</p>
+    <p>&#xA0;</p>
+  </div>
+  <h2 class="subhead">Problem Sets</h2>
+  <h3 class="subsubhead">Problem Set 1: Paying Off Credit Card Debt (Due)</h3>
+  <p>This problem set will introduce you to using control flow in Python and formulating a computational solution to a problem. You will design and write three simple Python programs, test them, and hand them in.</p>
+  <ul class="arrow">
+    <li>
+      <a href="/static/unit-1/lecture-4-machine-interpretation-of-a-program/MIT6_00SCS11_ps1.pdf">Instructions (PDF)</a>
+    </li>
+    <li><a href="/static/unit-1/lecture-4-machine-interpretation-of-a-program/ps1_sol.zip">Solutions (ZIP)</a> (This ZIP file contains: 3 .py files.)</li>
+  </ul>
+  <h3 class="subsubhead">Problem Set 2 (Assigned)</h3>
+  <p>Problem set 2 is assigned in this session.&#xA0; The instructions and solutions can be found on the session page where it is due, Lecture 6 <a href="/static/unit-1/lecture-6-recursion/index.htm">Recursion</a>.</p>
+</html>

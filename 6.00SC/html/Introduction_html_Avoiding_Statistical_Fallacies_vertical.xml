@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="ses-24.jpg" src="/static/unit-3/lecture-24-avoiding-statistical-fallacies/ses-24.jpg"/>
+        </td>
+        <td>
+          <p>This lecture discusses some common ways that people use statistics to draw invalid or misleading conclusions.</p>
+          <p class="instruction">
+            <em>Image courtesy of <a href="http://www.flickr.com/photos/spweber/5016169104/in/photostream/">spweber</a> on Flickr.</em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video1','embed1','player1','http://www.youtube.com/v/K1w2o5i0NGQ', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-3/lecture-24-avoiding-statistical-fallacies', 'http://img.youtube.com/vi/K1w2o5i0NGQ/0.jpg', 0,0, null);" rel="popup_name1">Lecture 24: Avoiding Statistical Fallacies</a> (00:49:36)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Lecture 24: Avoiding Statistical Fallacies</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-24-avoiding-statistical/id499270153?i=110101053" target="_blank">&gt;Download from iTunes U (MP4) </a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec24_300k.mp4" target="_blank">&gt;Download from Internet Archive (MP4) </a></p></div>
+</li>
+  </ul>
+  <h3 class="subsubhead">Recitation Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video2','embed2','player2','http://www.youtube.com/v/rM3shFQyieU', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-3/lecture-24-avoiding-statistical-fallacies', 'http://img.youtube.com/vi/rM3shFQyieU/0.jpg', 0,0, null);" rel="popup_name2">Recitation 10: Introduction to Dynamic Programming</a> (00:38:30)
+    <div class="popup_block" id="popup_name2"><div class="inline-video" id="video2"><div class="attention_message" id="embed2"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Recitation 10: Introduction to Dynamic Programming</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/recitation-10-introduction/id499270153?i=110101543" target="_blank">&gt;Download from iTunes U (MP4) </a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_rec10_300k.mp4" target="_blank">&gt;Download from Internet Archive (MP4) </a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What does GIGO stand for?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1">
+    <p>Garbage In Garbage Out: if your data is flawed, any conclusions you draw from it will be, too.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What does 'cum hoc ergo propter hoc' mean?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2">
+    <p>It is Latin for "with this, therefore because of this," a logical fallacy which involves incorrectly inferring a causation from a correlation. You should always remember&#x2014;correlation does not imply causation.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is a lurking variable?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3">
+    <p>One which doesn't appear in the plot of two other variables, but could have an effect on both. It is also sometimes referred to as a confounding variable.</p>
+    <p>&#xA0;</p>
+  </div>
+  <h2 class="subhead">Problem Sets</h2>
+  <h3 class="subsubhead">Problem Set 11: Fastest Way to Get Around MIT (Due)</h3>
+  <p>In this problem set you will write a solution to an optimization problem on how to find the shortest route from one building to another on the MIT campus given that you wish to constrain the amount of time you will spend walking outdoors (because generally speaking, the nocturnal beaver&#x2026; err, um, the nocturnal MIT engineer&#x2026; hates the sun).</p>
+  <ul class="arrow">
+    <li>
+      <a href="/static/unit-3/lecture-24-avoiding-statistical-fallacies/MIT6_00SCS11_ps11.pdf">Instructions (PDF)</a>
+    </li>
+    <li><a href="/static/unit-3/lecture-24-avoiding-statistical-fallacies/ps11.zip">Code Files (ZIP)</a> (This ZIP file contains: 1 .txt file and 2 .py files.)</li>
+    <li><a href="/static/unit-3/lecture-24-avoiding-statistical-fallacies/ps11_sol.zip">Solutions (ZIP)</a> (This ZIP file contains: 1 .py file and 1 .pdf file.)</li>
+  </ul>
+  <h2 class="subhead">Further Study</h2>
+  <p>These optional resources are provided for students that wish to explore this topic more fully.</p>
+  <ul class="arrow">
+    <li><a href="http://docs.python.org/tutorial/inputoutput.html#reading-and-writing-files">7.2 Reading and Writing Files</a>. Python Tutorial.</li>
+  </ul>
+</html>

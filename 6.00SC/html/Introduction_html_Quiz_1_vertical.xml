@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <p>Quiz 1 covers all material (lectures, recitations, and problem sets) from the beginning of the course through <a href="/static/unit-1/lecture-8-efficiency-and-order-of-growth/index.htm">Efficiency and Order of Growth</a>.</p>
+  <p>You may use all of your notes during the quiz, but no computing devices, cell phones, etc. Exams are designed primarily to test your conceptual understanding of the material covered up to this point in the course. Quiz 1 accounts for 15% of the final grade.</p>
+  <h2 class="subhead">Preparation and Content Review</h2>
+  <p>Please review the content from the sessions covered before attempting the practice quiz. You should be familiar with all of the concepts in the Topics list.</p>
+  <p>Use the practice quiz as an opportunity to think through the problems and identify areas where you need further review to achieve a solid understanding of the material. You'll be able to best gauge your command of the topics if you do the practice quiz (as much as possible) by yourself, using your notes, just as you would in an exam situation. Solutions to the practice quiz are not provided.</p>
+  <ul class="arrow">
+    <li>
+      <a href="/static/unit-1/quiz-i/MIT6_00SCS11_q1_topics.pdf">Quiz 1 Topics List (PDF)</a>
+    </li>
+    <li>
+      <a href="/static/unit-1/quiz-i/MIT6_00SCS11_q1_practice.pdf">Practice Quiz 1 (PDF)</a>
+    </li>
+  </ul>
+  <h2 class="subhead">Quiz Problems and Solutions</h2>
+  <p>The quiz should be completed in 90 minutes. This is an open book exam.</p>
+  <ul class="arrow">
+    <li>
+      <a href="/static/unit-1/quiz-i/MIT6_00SCS11_q1.pdf">Quiz 1 Problems (PDF)</a>
+    </li>
+    <li>
+      <a href="/static/unit-1/quiz-i/MIT6_00SCS11_q1_soln.pdf">Quiz 1 Solutions (PDF)</a>
+    </li>
+  </ul>
+</html>

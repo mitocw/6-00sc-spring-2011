@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Photograph of a backpack." height="100" src="/static/unit-2/lecture-18-optimization-problems-and-algorithms/ses-18.jpg" width="100"/>
+        </td>
+        <td>
+          <p>This lecture continues the discussion of curve fitting, emphasizing the interplay among theory, experimentation, and computation and addressing the problem of over-fitting. It then moves on to introduce the notion of an optimization problem, and illustrates it using the 0/1 knapsack problem.</p>
+          <p class="instruction">
+            <em>Image courtesy of <a href="http://www.flickr.com/photos/kob42kob/52185287/">kob42kob</a> on Flickr.</em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight" href="#?w=535" rel="popup_name1">Lecture 18: Optimization Problems and Algorithms</a> (00:49:42)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><script type="text/javascript">
+
+//
+load_multiple_media_chapter('video1','embed1','player1','http://www.youtube.com/v/BRjwkgQct28', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-18-optimization-problems-and-algorithms', 'http://img.youtube.com/vi/BRjwkgQct28/0.jpg', 0,0, null);
+//
+
+</script><br/><p class="pop_margin_title">Lecture 18: Optimization Problems and Algorithms</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-18-optimization-problems/id499270153?i=110101044" target="_blank">&gt; Download from iTunes U (MP4)</a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec18_300k.mp4" target="_blank">&gt; Download from Internet Archive (MP4)</a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What does an optimization problem consist of?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1" style="margin-left: 35px;">
+    <p>An optimization problem requires that an objective function be optimized, either by maximizing or minimizing the function.  There may also be a set of constraints that must be accounted for.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is problem reduction?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2" style="margin-left: 35px;">
+    <p>Taking a problem with an unknown solution and reducing it to a problem or problems with known solutions.</p>
+    <p>&#xA0;</p>
+  </div>
+  <h2 class="subhead">Problem Sets</h2>
+  <h3 class="subsubhead">Problem Set 8: Simulating The Spread of Disease and Virus Population (Due)</h3>
+  <p>In this problem set, using Python and pylab you will design and implement a stochastic simulation of patient and virus population dynamics, and reach conclusions about treatment regimens based on the simulation results.</p>
+  <ul class="arrow">
+    <li>
+      <a href="/static/unit-2/lecture-18-optimization-problems-and-algorithms/MIT6_00SCS11_ps8.pdf">Instructions (PDF)</a>
+    </li>
+    <li><a href="/static/unit-2/lecture-18-optimization-problems-and-algorithms/ps8.zip">Code Files (ZIP)</a> (This ZIP file contains: 1 .py file and 1 .pyc file.)</li>
+    <li><a href="/static/unit-2/lecture-18-optimization-problems-and-algorithms/ps8_sol.zip">Solutions (ZIP)</a> (This ZIP file contains: 1 .py file and 1 .pdf file.)</li>
+  </ul>
+  <h3 class="subsubhead">Problem Set 9 (Assigned)</h3>
+  <p>Problem set 9 is assigned in this session. The instructions and solutions can be found on the session page where it is due, Lecture 20 <a href="/static/unit-3/lecture-20-more-clustering/index.htm">More Clustering</a>.</p>
+</html>

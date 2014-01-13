@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Photograph of an open dictionary." height="100" src="/static/unit-1/lecture-5-objects-in-python/ses-05.jpg" width="100"/>
+        </td>
+        <td>
+          <p>This lecture introduces Python tuples, lists, and dictionaries, as well as the concept of mutability and how to avoid problems relating to it.</p>
+          <p class="instruction">
+            <em>Image courtesy of <a href="http://www.flickr.com/photos/enter/11960491/">enter</a> on Flickr.</em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight" href="#?w=535" rel="popup_name1">Lecture 5: Objects in Python</a> (00:50:59)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><script type="text/javascript">
+
+//
+load_multiple_media_chapter('video1','embed1','player1','http://www.youtube.com/v/B8is52oxHBw', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-5-objects-in-python', 'http://img.youtube.com/vi/B8is52oxHBw/0.jpg', 0,0, null);
+//
+
+</script><br/><p class="pop_margin_title">Lecture 5: Objects in Python</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-5-objects-in-python/id499270153?i=110101054" target="_blank">&gt; Download from iTunes U (MP4)</a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec05_300k.mp4" target="_blank">&gt; Download from Internet Archive (MP4)</a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What is mutability?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1" style="margin-left: 35px;">
+    <p>A mutable object's values can be changed; we must be careful when working with mutable objects not to inadvertently change them.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is the important difference between a list and a tuple?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2" style="margin-left: 35px;">
+    <p>Tuples are immutable (as are strings).</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is cloning?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3" style="margin-left: 35px;">
+    <p>Cloning creates a copy of a mutable object, so that the values can be manipulated without mutating the original object.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What are the important aspects of a dictionary?</p>
+  <div class="reveal4" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle4" style="margin-left: 35px;">
+    <p>A dictionary is mutable, with immutable keys, and unordered.</p>
+    <p>&#xA0;</p>
+  </div>
+  <h2 class="subhead">Further Study</h2>
+  <p>These optional resources are provided for students that wish to explore this topic more fully.</p>
+  <h3 class="subsubhead">Readings</h3>
+  <p>After watching the lecture, you may want to read some of the following resources:</p>
+  <ul class="arrow">
+    <li><a href="http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap08.html">8. Lists</a>. How to Think Like a Computer Scientist.</li>
+    <li><a href="http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap09.html">9. Tuples</a>. How to Think Like a Computer Scientist.</li>
+    <li><a href="http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap10.html">10. Dictionaries</a>. How to Think Like a Computer Scientist.</li>
+    <li><a href="http://docs.python.org/tutorial/datastructures.html#more-on-lists">5.1 More on Lists</a>. Python Tutorial.</li>
+    <li><a href="http://docs.python.org/tutorial/datastructures.html#tut-tuples">5.3 Tuples as Sequences</a>. Python Tutorial.</li>
+    <li><a href="http://docs.python.org/tutorial/datastructures.html#dictionaries">5.5 Dictionaries</a>. Python Tutorial.</li>
+  </ul>
+</html>

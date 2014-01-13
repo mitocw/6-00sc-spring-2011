@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="ses-22.jpg" src="/static/unit-3/lecture-22-using-graphs-to-model-problems-part-2/ses-22.jpg"/>
+        </td>
+        <td>
+          <p>This lecture returns to graph theory. It defines and gives examples of some classic graph problems: shortest path, shortest weighted path, cliques, and min-cut. It then shows how memoization can be used to speed up some algorithms.</p>
+          <p class="instruction">
+            <em><a href="http://www.cdc.gov/">Centers for Disease Control and Prevention</a>. This image is in the public domain.</em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video1','embed1','player1','http://www.youtube.com/v/hmtXhZTfAes', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-3/lecture-22-using-graphs-to-model-problems-part-2', 'http://img.youtube.com/vi/hmtXhZTfAes/0.jpg', 0,0, null);" rel="popup_name1">Lecture 22: Using Graphs to Model Problems, Part 2</a> (00:48:54)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Lecture 22: Using Graphs to Model Problems, Part 2</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-22-using-graphs-to/id499270153?i=110101043" target="_blank">&gt;Download from iTunes U (MP4) </a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec22_300k.mp4" target="_blank">&gt;Download from Internet Archive (MP4) </a></p></div>
+</li>
+  </ul>
+  <h3 class="subsubhead">Recitation Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video2','embed2','player2','http://www.youtube.com/v/_QnAUd-em3E', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-3/lecture-22-using-graphs-to-model-problems-part-2', 'http://img.youtube.com/vi/_QnAUd-em3E/0.jpg', 0,0, null);" rel="popup_name2">Recitation 9: Directed and Undirected Node Graphs</a> (00:49:58)
+    <div class="popup_block" id="popup_name2"><div class="inline-video" id="video2"><div class="attention_message" id="embed2"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Recitation 9: Directed and Undirected Node Graphs</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/recitation-9-directed-undirected/id499270153?i=110101542" target="_blank">&gt;Download from iTunes U (MP4) </a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_rec09_300k.mp4" target="_blank">&gt;Download from Internet Archive (MP4) </a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What is memoization?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1">
+    <p>Memoization involves saving work that we've done to a table, so that in the future, we can look it up rather than recalculating.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>Why is memoization important?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2">
+    <p>It helps us avoid redoing work that we have already done, thereby making programs more efficient.  It is the key idea behind the programming techniques known as dynamic programming.</p>
+    <p>&#xA0;</p>
+  </div>
+  <h2 class="subhead">Problem Sets</h2>
+  <h3 class="subsubhead">Problem Set 10: Clustering (Due)</h3>
+  <p>Every decade, the United States Census takes place. The census collects a lot of information from the population around the United States. In this problem set, we are going to use k-means clustering to analyze this information.</p>
+  <ul class="arrow">
+    <li>
+      <a href="/static/unit-3/lecture-22-using-graphs-to-model-problems-part-2/MIT6_00SCS11_ps10.pdf">Instructions (PDF)</a>
+    </li>
+    <li><a href="/static/unit-3/lecture-22-using-graphs-to-model-problems-part-2/ps10.zip">Code Files (ZIP)</a> (This ZIP file contains: 1 .py file and 1 .txt file.)</li>
+    <li><a href="/static/unit-3/lecture-22-using-graphs-to-model-problems-part-2/ps10_sol.zip">Solutions (ZIP)</a> (This ZIP file contains: 1 .png file and 1 .py file.)</li>
+  </ul>
+  <h3 class="subsubhead">Problem Set 11 (Assigned)</h3>
+  <p>Problem set 11 is assigned in this session. The instructions and solutions can be found on the session page where it is due, Lecture 24 <a href="/static/unit-3/lecture-24-avoiding-statistical-fallacies/index.htm">Avoiding Statistical Fallacies</a>.</p>
+</html>

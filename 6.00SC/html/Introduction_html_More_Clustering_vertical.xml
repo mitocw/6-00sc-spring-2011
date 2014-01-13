@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="ses-20.jpg" height="100" src="/static/unit-3/lecture-20-more-clustering/ses-20.jpg" width="100"/>
+        </td>
+        <td>
+          <p>This lecture covers hierarchical clustering and introduces k-means clustering.</p>
+          <p class="instruction">
+            <em>This image is from the <a href="http://en.wikipedia.org/wiki/File:Manhattan_distance.svg">Wikimedia Commons</a>. This image is in the public domain.</em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video1','embed1','player1','http://www.youtube.com/v/Iu4xTLKcbPo', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-3/lecture-20-more-clustering', 'http://img.youtube.com/vi/Iu4xTLKcbPo/0.jpg', 0,0, null);" rel="popup_name1">Lecture 20: More Clustering</a> (00:49:09)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Lecture 20: More Clustering</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-20-more-clustering/id499270153?i=110101045" target="_blank">&gt;Download from iTunes U (MP4) </a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec20_300k.mp4" target="_blank">&gt;Download from Internet Archive (MP4) </a></p></div>
+</li>
+  </ul>
+  <h3 class="subsubhead">Recitation Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video2','embed2','player2','http://www.youtube.com/v/UHRhUufAlE4', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-3/lecture-20-more-clustering', 'http://img.youtube.com/vi/UHRhUufAlE4/0.jpg', 0,0, null);" rel="popup_name2">Recitation 8: Hierarchical and k-means Clustering</a> (00:50:49)
+    <div class="popup_block" id="popup_name2"><div class="inline-video" id="video2"><div class="attention_message" id="embed2"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Recitation 8: Hierarchical and k-means Clustering</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/recitation-8-hierarchical/id499270153?i=110101591" target="_blank">&gt;Download from iTunes U (MP4) </a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_rec08_300k.mp4" target="_blank">&gt;Download from Internet Archive (MP4) </a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>How do we use nominal (non-numeric or noncontinuous) categories as features?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1">
+    <p>Convert each possible value to a real number.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>Why do we need to use scaling (normalization)?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2">
+    <p>To indicate the relative importance of each feature.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>How does k-means clustering work?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3">
+    <p>A number 'k' points are chosen, randomly or otherwise, to be the initial centroids; all other points are assigned to their nearest centroid. A new, better centroid is then chosen for each cluster, and we rinse and repeat until the difference between our current set of clusters and the previous set is insignificant.</p>
+    <p>&#xA0;</p>
+  </div>
+  <h2 class="subhead">Problem Sets</h2>
+  <h3 class="subsubhead">Problem Set 9: Schedule Optimization (Due)</h3>
+  <p>At an institute of higher education that shall remain nameless, it used to be the case that a human adviser would help each student formulate a list of subjects that would meet the student's objectives. However, because of financial troubles, the Institute has decided to replace human advisers with software. Given the amount of work a student wants to do, the program returns a list of subjects that maximizes the amount of value. The goal of this problem set is to implement optimization algorithms.</p>
+  <ul class="arrow">
+    <li>
+      <a href="/static/unit-3/lecture-20-more-clustering/MIT6_00SCS11_ps9.pdf">Instructions (PDF)</a>
+    </li>
+    <li><a href="/static/unit-3/lecture-20-more-clustering/ps9.zip">Code Files (ZIP)</a> (This ZIP file contains: 2 .py files and 2 .txt files.)</li>
+    <li><a href="/static/unit-3/lecture-20-more-clustering/ps9_sol.zip">Solutions (ZIP)</a> (This ZIP file contains: 1 .png file and 4 .py files.)</li>
+  </ul>
+  <h3 class="subsubhead">Problem Set 10 (Assigned)</h3>
+  <p>Problem set 10 is assigned in this session.&#xA0; The instructions and solutions can be found on the session page where it is due, Lecture 22 <a href="/static/unit-3/lecture-22-using-graphs-to-model-problems-part-2/index.htm">Using Graphs to Model Problems, Part 2</a>.</p>
+</html>

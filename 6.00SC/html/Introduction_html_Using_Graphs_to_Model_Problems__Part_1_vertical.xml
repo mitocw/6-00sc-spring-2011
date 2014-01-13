@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="ses-21.jpg" src="/static/unit-3/lecture-21-using-graphs-to-model-problems-part-1/ses-21.jpg"/>
+        </td>
+        <td>
+          <p>This lecture begins by finishing up k-means clustering. It then moves on to introduce the notion of modeling things using graphs (sets of nodes and edges that link them).</p>
+          <p class="instruction">
+            <em>
+              <br/>
+            </em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight" href="#?w=535" rel="popup_name1">Lecture 21: Using Graphs to Model Problems, Part 1</a> (00:50:51)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><script type="text/javascript">
+
+//
+load_multiple_media_chapter('video1','embed1','player1','http://www.youtube.com/v/UiZlaJX3IRk', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-3/lecture-21-using-graphs-to-model-problems-part-1', 'http://img.youtube.com/vi/UiZlaJX3IRk/0.jpg', 0,0, null);
+//
+
+</script><br/><p class="pop_margin_title">Lecture 21: Using Graphs to Model Problems, Part 1</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-21-using-graphs-to/id499270153?i=110101050" target="_blank">&gt; Download from iTunes U (MP4)</a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec21_300k.mp4" target="_blank">&gt; Download from Internet Archive (MP4)</a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What are filters used for?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1">
+    <p>Filters allow us to choose which features to use for our classification, so that we are basing our inferences on the most relevant information (e.g. teeth instead of body size for dietary habits of mammals).</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is a graph?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2">
+    <p>A set of objects called nodes (or vertices) connected by a set of edges (or arcs).</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is a digraph?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3">
+    <p>A graph with unidirectional edges.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is a weighted graph?</p>
+  <div class="reveal4" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle4">
+    <p>A graph in which each edge has an associated weight.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>Based on the code in the handout, why is Graph a subclass of Digraph, rather than the other way around?</p>
+  <div class="reveal5" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle5">
+    <p>Edge has a source and destination, and is therefore unidirectional already. This makes it easier for us to treat the bidirectional case Graph (where there is an edge for each direction) as a special case of Digraph.</p>
+    <p>&#xA0;</p>
+  </div>
+</html>

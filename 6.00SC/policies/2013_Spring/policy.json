@@ -1,0 +1,49 @@
+{
+    "course/2013_Spring": {
+        "show_calculator": "Yes", 
+        "showanswer": "attempted", 
+        "display_name": "Introduction to Computer Science and Programming", 
+        "graceperiod": "1 day 5 hours 59 minutes 59 seconds", 
+        "remote_gradebook": {
+            "section": "r01", 
+            "name": "STELLAR:/project/mitxdemosite"
+        }, 
+        "rerandomize": "never", 
+        "discussion_topics": {
+            "Troubleshooting": {
+                "sort_key": "AB", 
+                "id": "600SC_Spring2013_Troubleshooting"
+            }, 
+            "Feedback": {
+                "sort_key": "AA", 
+                "id": "600SC_Spring2013_Feedback"
+            }, 
+            "General": {
+                "sort_key": "A", 
+                "id": "600SC_Spring2013_General"
+            }
+        }, 
+        "start": "2013-02-19T14:15", 
+        "tabs": [
+            {
+                "type": "courseware"
+            }, 
+            {
+                "type": "course_info", 
+                "name": "Course Info"
+            }, 
+            {
+                "type": "discussion", 
+                "name": "Discussion"
+            }, 
+            {
+                "type": "progress", 
+                "name": "Progress"
+            }, 
+            {
+                "type": "staff_grading", 
+                "name": "Staff Grading"
+            }
+        ]
+    }
+}

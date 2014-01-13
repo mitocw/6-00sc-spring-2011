@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Photograph of a moth taped into a lab notebook." src="/static/unit-1/lecture-7-debugging/ses-07.jpg"/>
+        </td>
+        <td>
+          <p>This lecture starts with a brief explanation of why floating point numbers are only an approximation of the real numbers. Most of the lecture is about a systematic approach to debugging.</p>
+          <p class="instruction">
+            <em>Image courtesy of the <a href="http://www.history.navy.mil/photos/images/h96000/h96566k.jpg">Naval Surface Warfare Center</a>, Dahlgren, VA.</em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video1','embed1','player1','http://www.youtube.com/v/5gt2WDBl8-0', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-7-debugging', 'http://img.youtube.com/vi/5gt2WDBl8-0/0.jpg', 0,0, null);" rel="popup_name1">Lecture 7: Debugging</a> (00:49:58)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Lecture 7: Debugging</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-7-debugging/id499270153?i=110101037" target="_blank">&gt; Download from iTunes U (MP4)</a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec07_300k.mp4" target="_blank">&gt; Download from Internet Archive (MP4)</a></p></div>
+</li>
+  </ul>
+  <h3 class="subsubhead">Recitation Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video2','embed2','player2','http://www.youtube.com/v/7BpomdjZ_Os', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-7-debugging', 'http://img.youtube.com/vi/7BpomdjZ_Os/0.jpg', 0,0, null);" rel="popup_name2">Recitation 4: Recursion, Pseudo code and Debugging</a> (00:50:24)
+    <div class="popup_block" id="popup_name2"><div class="inline-video" id="video2"><div class="attention_message" id="embed2"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Recitation 4: Recursion, Pseudo code and Debugging</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/recitation-4-recursion-pseudo/id499270153?i=110101547" target="_blank"> &gt; Download from iTunes U (MP4) </a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_rec04_300k.mp4" target="_blank"> &gt; Download from Internet Archive (MP4) </a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>Why do computers use binary representations?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1" style="margin-left: 35px;">
+    <p>It's easy to build hardware with two states, on and off.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>Why shouldn't we test for equality with floats?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2" style="margin-left: 35px;">
+    <p>Because computers use binary, floats are actually very close approximations of the actual values. Testing for equality can result in an unexpected error, so it's better to determine whether two numbers are close enough for our purposes rather than precisely equal.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>When debugging, how can you ensure that the values in your program are the ones you think they are?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3" style="margin-left: 35px;">
+    <p>Use print statements.</p>
+    <p>&#xA0;</p>
+  </div>
+  <h2 class="subhead">Problem Sets</h2>
+  <h3 class="subsubhead">Problem Set 3: Wordgames (Due)</h3>
+  <p>In this problem set, you'll implement <em>two</em> versions of the 6.00 wordgame! Don't be intimidated by the length of this problem set. It's a lot of reading, but it is very doable.</p>
+  <p>Let's begin by describing the 6.00 wordgame: This game is a lot like Scrabble or Text Twist, if you've played those. Letters are dealt to players, who then construct one or more words out of their letters. Each <strong>valid</strong> word receives a score, based on the length of the word and the letters in that word.</p>
+  <ul class="arrow">
+    <li>
+      <a href="/static/unit-1/lecture-7-debugging/MIT6_00SCS11_ps3.pdf">Instructions (PDF)</a>
+    </li>
+    <li><a href="/static/unit-1/lecture-7-debugging/ps3.zip">Code files (ZIP)</a> (This ZIP file contains: 1 .txt file and 4 .py files.)</li>
+    <li><a href="/static/unit-1/lecture-7-debugging/ps3_sol.zip">Solutions (ZIP)</a> (This ZIP file contains: 2 .py files.)</li>
+  </ul>
+  <h3 class="subsubhead">Problem Set 4 (Assigned)</h3>
+  <p>Problem set 4 is assigned in this session. The instructions and solutions can be found on the session page where it is due, Lecture 10 <a href="/static/unit-2/lecture-10-hashing-and-classes/index.htm">Hashing and Classes</a>.</p>
+  <h2 class="subhead">Further Study</h2>
+  <p>These optional resources are provided for students that wish to explore this topic more fully.</p>
+  <h3 class="subsubhead">Readings</h3>
+  <p>After watching the lecture, you may want to read some of the following resources:</p>
+  <ul class="arrow">
+    <li><a href="http://docs.python.org/tutorial/errors.html">8. Errors and Exceptions</a>. Python Tutorial.</li>
+    <li><a href="http://www.greenteapress.com/thinkpython/thinkCSpy/html/app01.html">Appendix A: Debugging</a>. How to Think Like a Computer Scientist.</li>
+  </ul>
+</html>

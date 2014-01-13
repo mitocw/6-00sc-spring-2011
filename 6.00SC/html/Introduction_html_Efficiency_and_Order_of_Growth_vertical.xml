@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Graph showing various logarithmic curves." src="/static/unit-1/lecture-8-efficiency-and-order-of-growth/ses-08.jpg"/>
+        </td>
+        <td>
+          <p>This lecture revolves around the topic of algorithmic efficiency. It introduces the random access model (RAM) of computation and "big O notation" as a way to talk about order of growth. It concludes with binary search.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight" href="#?w=535" rel="popup_name1">Lecture 8: Efficiency and Order of Growth</a> (00:50:10)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><script type="text/javascript">
+
+//
+load_multiple_media_chapter('video1','embed1','player1','http://www.youtube.com/v/GmkRmETGghw', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-8-efficiency-and-order-of-growth', 'http://img.youtube.com/vi/GmkRmETGghw/0.jpg', 0,0, null);
+//
+
+</script><br/><p class="pop_margin_title">Lecture 8: Efficiency and Order of Growth</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-8-efficiency-order/id499270153?i=110101055" target="_blank">&gt; Download from iTunes U (MP4)</a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec08_300k.mp4" target="_blank">&gt; Download from Internet Archive (MP4)</a></p></div>
+</li>
+  </ul>
+  <h3 class="subsubhead">Recitation Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video2','embed2','player2','http://www.youtube.com/v/8I0BmT1ccuw', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-12-introduction-to-simulation-and-random-walks', 'http://img.youtube.com/vi/8I0BmT1ccuw/0.jpg', 0,0, null);" rel="popup_name2">Optional Recitation: Algorithm Complexity and Class Review</a> (00:42:12)
+    <div class="popup_block" id="popup_name2"><div class="inline-video" id="video2"><div class="attention_message" id="embed2"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Optional Recitation: Algorithm Complexity and Class Review</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/optional-recitation-algorithm/id499270153?i=110101590" target="_blank">&gt;Download from iTunes U (MP4) </a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_rec12_300k.mp4" target="_blank">&gt;Download from Internet Archive (MP4) </a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>Why is efficiency important?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1" style="margin-left: 35px;">
+    <p>Efficiency determines how long our programs take to run; when large sets of data are being handled, it can make a huge difference (on the order of years or even millennia) whether our program is efficient or not.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What notation do we use to state complexity?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2" style="margin-left: 35px;">
+    <p>Big O notation.</p>
+    <p>&#xA0;</p>
+  </div>
+</html>

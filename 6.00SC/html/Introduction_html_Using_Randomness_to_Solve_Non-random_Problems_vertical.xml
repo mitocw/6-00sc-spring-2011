@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Photograph of three doors in a row." height="100" src="/static/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/ses-16.jpg" width="100"/>
+        </td>
+        <td>
+          <p>This lecture starts by defining normal (Gaussian), uniform, and exponential distributions. It then shows how Monte Carlo simulations can be used to analyze the classic Monty Hall problem and to find an approximate value of pi.</p>
+          <p class="instruction">
+            <em>Image courtesy of <a href="http://www.flickr.com/photos/xiaozhuli/3530033168/">Xiaozhuli</a> on Flickr.</em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight" href="#?w=535" rel="popup_name1">Lecture 16: Using Randomness to Solve Non-random Problems</a> (00:49:44)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><script type="text/javascript">
+
+//
+load_multiple_media_chapter('video1','embed1','player1','http://www.youtube.com/v/Q148jV9ljPM', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-16-using-randomness-to-solve-non-random-problems', 'http://img.youtube.com/vi/Q148jV9ljPM/0.jpg', 0,0, null);
+//
+
+</script><br/><p class="pop_margin_title">Lecture 16: Using Randomness to Solve Non-random Problems</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-16-using-randomness/id499270153?i=110101036" target="_blank">&gt; Download from iTunes U (MP4)</a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec16_300k.mp4" target="_blank">&gt; Download from Internet Archive (MP4)</a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What is a Gaussian distribution?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1" style="margin-left: 35px;">
+    <p>Also known as a normal distribution, a Gaussian distribution is symmetric and can be fully characterized by its mean and standard deviation.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is a uniform distribution?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2" style="margin-left: 35px;">
+    <p>One where each outcome has the same probability. The distribution can be fully characterized with a single parameter, the range.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is important about an exponential distribution?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3" style="margin-left: 35px;">
+    <p>This is the only continuous memory-less distribution, meaning that the probability of any outcome at a point in time is independent of the outcome at any previous time.</p>
+    <p>&#xA0;</p>
+  </div>
+  <h2 class="subhead">Problem Sets</h2>
+  <h3 class="subsubhead">Problem Set 7: Simulating The Spread of Disease and Virus Population (Due)</h3>
+  <p>In this problem set, using Python and pylab you will design and implement a stochastic simulation of patient and virus population dynamics, and reach conclusions about treatment regimens based on the simulation results.</p>
+  <ul class="arrow">
+    <li>
+      <a href="/static/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/MIT6_00SCS11_ps7.pdf">Instructions (PDF)</a>
+    </li>
+    <li>
+      <a href="/static/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/ps7.py">Code File (PY)</a>
+    </li>
+    <li><a href="/static/unit-2/lecture-16-using-randomness-to-solve-non-random-problems/ps7_sol.zip">Solutions (ZIP)</a> (This ZIP file contains: 2 .pdf files and 1 .py file.)</li>
+  </ul>
+  <h3 class="subsubhead">Problem Set 8 (Assigned)</h3>
+  <p>Problem set 8 is assigned in this session. The instructions and solutions can be found on the session page where it is due, Lecture 18 <a href="/static/unit-2/lecture-18-optimization-problems-and-algorithms/index.htm">Optimization Problems and Algorithms</a>.</p>
+  <h2 class="subhead">Further Study</h2>
+  <p>These optional resources are provided for students that wish to explore this topic more fully.</p>
+  <ul class="arrow">
+    <li><a href="http://en.wikipedia.org/wiki/Monte_Carlo_method">Monte Carlo method</a>. Wikipedia.</li>
+    <li>
+      <a href="http://matplotlib.sourceforge.net/">Matplotlib</a>
+    </li>
+  </ul>
+</html>

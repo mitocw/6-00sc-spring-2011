@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Photograph of Monty Python graffiti on a wall in Graz." height="100" src="/static/unit-1/lecture-2-core-elements-of-a-program/ses-02.jpg" width="100"/>
+        </td>
+        <td>
+          <p>This lecture covers the building blocks of straight line and branching programs: objects, types, operators, variables, execution, and conditional statements.</p>
+          <p class="instruction">
+            <em>Image courtesy of <a href="http://www.flickr.com/photos/schoffer/196079076/">southtyrolean</a> on Flickr.</em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video1','embed1','player1','http://www.youtube.com/v/SLvTCHhu5SE', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-2-core-elements-of-a-program', 'http://img.youtube.com/vi/SLvTCHhu5SE/0.jpg', 0,0, null);" rel="popup_name1">Lecture 2: Core Elements of a Program</a> (00:49:49)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Lecture 2: Core Elements of a Program</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-2-core-elements-program/id499270153?i=110101057" target="_blank">&gt; Download from iTunes U (MP4)</a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec02_300k.mp4" target="_blank">&gt; Download from Internet Archive (MP4)</a></p></div>
+</li>
+  </ul>
+  <h3 class="subsubhead">Recitation Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video2','embed2','player2','http://www.youtube.com/v/88fqFjfxgwI', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-2-core-elements-of-a-program', 'http://img.youtube.com/vi/88fqFjfxgwI/0.jpg', 0,0, null);" rel="popup_name2">Recitation 1: Introduction to Coding Concepts</a> (00:52:29)
+    <div class="popup_block" id="popup_name2"><div class="inline-video" id="video2"><div class="attention_message" id="embed2"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Recitation 1: Introduction to Coding Concepts</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/recitation-1-introduction/id499270153?i=112370299" target="_blank"> &gt; Download from iTunes U (MP4) </a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_rec01_300k.mp4" target="_blank"> &gt; Download from Internet Archive (MP4) </a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What is a 'type'?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1" style="margin-left: 35px;">
+    <p>Types are classifications of objects, which is what Python, as an OOP language, deals with. They determine how those objects are dealt with (for example, adding two integers results in an integer, two strings results in a concatenated string, and an integer and a string results in an error).</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is an 'expression'?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2" style="margin-left: 35px;">
+    <p>An expression is composed of objects (or operands) and operators, and can be interpreted into a value.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is a type conversion?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3" style="margin-left: 35px;">
+    <p>A type conversion turns one type of object into another. For example, applying str to the integer 3 results in the string '3'.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is a keyword?</p>
+  <div class="reveal4" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle4" style="margin-left: 35px;">
+    <p>Keywords are words that have special meanings within a language. Many editors will display them in special colors. These words cannot be used as variables.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is the difference between a straight line program and a branching program?</p>
+  <div class="reveal5" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle5" style="margin-left: 35px;">
+    <p>A straight line program simply goes through and carries out each step. A branching program will do different things depending on conditions set within the program.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is a conditional?</p>
+  <div class="reveal6" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle6" style="margin-left: 35px;">
+    <p>A conditional statement starts with an if statement, and can also include elif and else statements.</p>
+    <p>&#xA0;</p>
+  </div>
+  <h2 class="subhead">Problem Sets</h2>
+  <h3 class="subsubhead">Problem Set 0: Introduction to Python and IDLE (Due)</h3>
+  <p>This problem set will introduce you to the programming environment IDLE and to programming in Python, as well as to our general problem set structure. In this problem set, you will install IDLE, write a simple Python program, and hand it in. Be sure to read this problem set thoroughly, especially the sections of Collaboration and the Hand-in Procedure.</p>
+  <ul class="arrow">
+    <li>
+      <a href="/static/unit-1/lecture-2-core-elements-of-a-program/MIT6_00SCS11_ps0.pdf">Instructions (PDF)</a>
+    </li>
+  </ul>
+  <h3 class="subsubhead">Problem Set 1 (Assigned)</h3>
+  <p>Problem set 1 is assigned in this session. The instructions and solutions can be found on the session page where it is due, Lecture 4 <a href="/static/unit-1/lecture-4-machine-interpretation-of-a-program/index.htm">Machine Interpretation of a Program</a>.</p>
+</html>

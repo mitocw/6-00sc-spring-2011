@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Diagrammatic sketch of the key elements of a stored-program computer." height="100" src="/static/unit-1/lecture-1-introduction-to-6.00/ses-01.jpg" width="100"/>
+        </td>
+        <td>
+          <p>This lecture covers course expectations, introduces computer programming and its uses, and begins to familiarize you with concepts related to how programs work.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight" href="#?w=535" rel="popup_name1">Lecture 1: Introduction to 6.00</a> (00:41:28)     <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><script type="text/javascript">
+
+
+load_multiple_media_chapter('video1','embed1','player1','http://www.youtube.com/v/bX3jvD7XFPs', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-1-introduction-to-6.00', 'http://img.youtube.com/vi/bX3jvD7XFPs/0.jpg', 0,0, null);
+
+
+</script><br/><p class="pop_margin_title">Lecture 1: Introduction to 6.00</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-1-introduction-to/id499270153?i=110101056" target="_blank">&gt; Download from iTunes U (MP4)</a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec01_300k.mp4" target="_blank">&gt; Download from Internet Archive (MP4)</a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What is the difference between declarative and imperative knowledge?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1">
+    <p>Declarative knowledge is statements of fact; imperative knowledge is "how to" knowledge.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is the advantage of a stored-program computer?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2">
+    <p>It's far more versatile than a fixed-program computer, since it interprets a program given to it and carries out those instructions, as opposed to being built to do one thing.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What are the syntax, static semantics, and semantics of a language?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3">
+    <p>Syntax determines whether a string is legal, static semantics determine whether the string has meaning, and semantics assigns a meaning to a legal sentence (assuming no static semantic errors).</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What sorts of errors can occur in a program?</p>
+  <div class="reveal4" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle4">
+    <p>It can crash, run forever, or give a wrong answer.</p>
+    <p>&#xA0;</p>
+  </div>
+  <h2 class="subhead">Problem Sets</h2>
+  <h3 class="subsubhead">Problem Set 0 (Assigned)</h3>
+  <p>Problem set 0 is assigned in this session. This is an ungraded problem set. The instructions can be found on the session page where it is due, Lecture 2 <a href="/static/unit-1/lecture-2-core-elements-of-a-program/index.htm">Core Elements of a Program</a>.</p>
+  <h2 class="subhead">Further Study</h2>
+  <p>These optional resources are provided for students that wish to explore this topic more fully.</p>
+  <h3 class="subsubhead">Readings</h3>
+  <p>After watching the lecture, you may want to view some of the following resources:</p>
+  <ul class="arrow">
+    <li>
+      <a href="http://docs.python.org/library/">The Python Standard Library</a>
+    </li>
+    <li>
+      <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-01sc-introduction-to-electrical-engineering-and-computer-science-i-spring-2011">
+        <em>6.01SC Introduction to Electrical Engineering and Computer Science I</em>
+      </a>
+    </li>
+  </ul>
+</html>

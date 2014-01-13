@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Photograph of a rabbit." src="/static/unit-1/lecture-6-recursion/ses-06.jpg"/>
+        </td>
+        <td>
+          <p>This lecture finishes the discussion of dictionaries, then introduces inductive reasoning and recursion. Examples include generating the Fibonacci sequence and solving the Towers of Hanoi problem.</p>
+          <p class="instruction">
+            <em>Image courtesy of <a href="http://www.flickr.com/photos/the_farnsworths/5808550435/in/photostream/">Stephen &amp; Claire Farnsworth</a> on Flickr.</em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video1','embed1','player1','http://www.youtube.com/v/WbWb0u8bJrU', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-6-recursion', 'http://img.youtube.com/vi/WbWb0u8bJrU/0.jpg', 0,0, null);" rel="popup_name1">Lecture 6: Recursion</a> (00:49:24)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Lecture 6: Recursion</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-6-recursion/id499270153?i=110101040" target="_blank">&gt; Download from iTunes U (MP4)</a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec06_300k.mp4" target="_blank">&gt; Download from Internet Archive (MP4)</a></p></div>
+</li>
+  </ul>
+  <h3 class="subsubhead">Recitation Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video2','embed2','player2','http://www.youtube.com/v/Fixc8hVo_cY', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-1/lecture-6-recursion', 'http://img.youtube.com/vi/Fixc8hVo_cY/0.jpg', 0,0, null);" rel="popup_name2">Recitation 3: Lists and their Elements, Sorting, and Recursion</a> (00:50:23)
+    <div class="popup_block" id="popup_name2"><div class="inline-video" id="video2"><div class="attention_message" id="embed2"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Recitation 3: Lists and their Elements, Sorting, and Recursion</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/recitation-3-lists-their-elements/id499270153?i=112370300" target="_blank"> &gt; Download from iTunes U (MP4) </a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_rec03_300k.mp4" target="_blank"> &gt; Download from Internet Archive (MP4) </a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What is recursion?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1" style="margin-left: 35px;">
+    <p>Recursion, or "divide-and-conquer", allows us to define a function that calls itself to solve a problem by breaking it into simpler cases.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is a recursive case?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2" style="margin-left: 35px;">
+    <p>A recursive case calls the recursive procedure on a simpler case (usually a part of the input).</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is a base case?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3" style="margin-left: 35px;">
+    <p>A base case is necessary in recursion; it determines when the procedure returns a value (or terminates), rather than continuing the recursive process.</p>
+    <p>&#xA0;</p>
+  </div>
+  <h2 class="subhead">Problem Sets</h2>
+  <h3 class="subsubhead">Problem Set 2: Successive Approximation and a Wordgame (Due)</h3>
+  <p>Successive approximation is a problem-solving method where you try to guess the right answer to a problem and then check your guess. If the guess is good enough, you're done. Otherwise, you keep improving your guess in small increments and checking it, getting closer and closer to the right answer, until you determine that the guess is good enough. For the first 3 problems of this problem set, we will look at Newton's method, which uses successive approximation to find the roots of a function.</p>
+  <p>Secondly, we will have some fun with Python, and get some practice using strings and string operations. We would like you to implement the word game Hangman as a 1-player game against the computer.</p>
+  <ul class="arrow">
+    <li>
+      <a href="/static/unit-1/lecture-6-recursion/MIT6_00SCS11_ps2.pdf">Instructions (PDF)</a>
+    </li>
+    <li><a href="/static/unit-1/lecture-6-recursion/ps2.zip">Code Files (ZIP)</a> (This ZIP file contains: 1 .txt file and 2 .py files.)</li>
+    <li><a href="/static/unit-1/lecture-6-recursion/ps2_sol.zip">Solutions (ZIP)</a> (This ZIP file contains: 3 .py files.)</li>
+  </ul>
+  <h3 class="subsubhead">Problem Set 3 (Assigned)</h3>
+  <p>Problem set 3 is assigned in this session. The instructions and solutions can be found on the session page where it is due, Lecture 7 <a href="/static/unit-1/lecture-7-debugging/index.htm">Debugging</a>.</p>
+  <h2 class="subhead">Further Study</h2>
+  <p>These optional resources are provided for students that wish to explore this topic more fully.</p>
+  <h3 class="subsubhead">Readings</h3>
+  <p>After watching the lecture, you may want to read some of the following resources:</p>
+  <ul class="arrow">
+    <li><a href="http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap04.html">4.9 Recursion</a>. How to Think Like a Computer Scientist.</li>
+    <li><a href="http://beastie.cs.ua.edu/cs150/book/index_16.html">Recursion</a>. An Introduction to Python.</li>
+    <li><a href="http://beastie.cs.ua.edu/cs150/book/index_17.html">Comparing Recursion and Looping</a>. An Introduction to Python.</li>
+  </ul>
+  <h3 class="subsubhead">Related Lectures</h3>
+  <ul class="arrow">
+    <li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2008"><em>6.006 Introduction to Algorithms</em></a>. 6.006 lectures assume a greater level of mathematical sophistication than does 6.00SC. Read the lecture notes on:
+    <ul class="arrow"><li>Dynamic programming I: memoization, Fibonacci, Crazy Eights, guessing</li></ul>
+</li>
+  </ul>
+</html>

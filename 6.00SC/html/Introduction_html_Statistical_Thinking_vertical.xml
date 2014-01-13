@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Photograph of a Roosevelt dime from 1948." height="100" src="/static/unit-2/lecture-15-statistical-thinking/ses-15.jpg" width="100"/>
+        </td>
+        <td>
+          <p>This lecture presents ways of ascertaining how dependable information extracted from samples is likely to be. It covers standard deviation, coefficient of variation, and standard error. It also shows how to use pylab to produce histograms.</p>
+          <p class="instruction">
+            <em>Image courtesy of <a href="http://www.flickr.com/photos/pagedooley/866975841/">Kevin Dooley</a> on Flickr.</em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video1','embed1','player1','http://www.youtube.com/v/VqZBqoZgL7k', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-15-statistical-thinking', 'http://img.youtube.com/vi/VqZBqoZgL7k/0.jpg', 0,0, null);" rel="popup_name1">Lecture 15: Statistical Thinking</a> (00:51:31)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Lecture 15: Statistical Thinking</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-15-statistical-thinking/id499270153?i=110101041" target="_blank">&gt;Download from iTunes U (MP4) </a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec15_300k.mp4" target="_blank">&gt;Download from Internet Archive (MP4) </a></p></div>
+</li>
+  </ul>
+  <h3 class="subsubhead">Recitation Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video2','embed2','player2','http://www.youtube.com/v/yVkt3Px4KHA', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-15-statistical-thinking', 'http://img.youtube.com/vi/yVkt3Px4KHA/0.jpg', 0,0, null);" rel="popup_name2">Recitation 6: Probability and Statistics</a> (00:53:28)
+    <div class="popup_block" id="popup_name2"><div class="inline-video" id="video2"><div class="attention_message" id="embed2"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Recitation 6: Probability and Statistics</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/recitation-6-probability-statistics/id499270153?i=110101545" target="_blank">&gt;Download from iTunes U (MP4) </a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_rec06_300k.mp4" target="_blank">&gt;Download from Internet Archive (MP4) </a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What does the standard deviation tell us?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1" style="margin-left: 35px;">
+    <p>It is a distance which describes the range +/- from the mean containing a particular fraction of the  values; it describes the shape of the bell curve.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is variance?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2" style="margin-left: 35px;">
+    <p>A measure of how much spread there is in the possible different outcomes.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is the coefficient of variation?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3" style="margin-left: 35px;">
+    <p>The standard deviation divided by the mean. If it's less than 1, the distribution is considered low-variance.</p>
+    <p>&#xA0;</p>
+  </div>
+</html>

@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview" style="width: 724px; height: 69px;">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Photograph of a box of air mail envelopes." height="100" src="/static/unit-2/lecture-10-hashing-and-classes/ses-10.jpg" width="100"/>
+        </td>
+        <td>
+          <p>This lecture starts by showing how hashing can be used to achieve near constant time lookups and the concept of classes as understood by a computer. It then introduces exceptions.</p>
+          <p class="instruction">
+            <em>Image courtesy of <a href="http://www.flickr.com/photos/donovan_beeson/5792363110/">donovanbeeson</a> on Flickr.</em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight" href="#?w=535" rel="popup_name1">Lecture 10: Hashing and Classes</a> (00:44:57)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><script type="text/javascript">
+
+//
+load_multiple_media_chapter('video1','embed1','player1','http://www.youtube.com/v/pjLbxB9TXJs', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-10-hashing-and-classes', 'http://img.youtube.com/vi/pjLbxB9TXJs/0.jpg', 0,0, null);
+//
+
+</script><br/><p class="pop_margin_title">Lecture 10: Hashing and Classes</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-10-hashing-classes/id499270153?i=110101048" target="_blank">&gt; Download from iTunes U (MP4)</a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec10_300k.mp4" target="_blank">&gt; Download from Internet Archive (MP4)</a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What does hashing do?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1" style="margin-left: 35px;">
+    <p>It converts the object to be hashed into an int that lies within a pre-defined range.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is a bucket?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2" style="margin-left: 35px;">
+    <p>A list of items that have the same hash value.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What are try blocks for?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3" style="margin-left: 35px;">
+    <p>Try blocks are used when a piece of code may not work in all cases or for all inputs.  It consists of a try statement and an except statement.  First the try statement is executed; if it throws an exception, the program uses the except statement instead of terminating the program.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What does polymorphic mean?</p>
+  <div class="reveal4" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle4" style="margin-left: 35px;">
+    <p>Works with a variety of different types.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is a module?</p>
+  <div class="reveal5" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle5" style="margin-left: 35px;">
+    <p>A collection of related functions.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is an object?</p>
+  <div class="reveal6" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle6" style="margin-left: 35px;">
+    <p>A collection of data and functions that operate on that data.</p>
+    <p>&#xA0;</p>
+  </div>
+  <h2 class="subhead">Problem Sets</h2>
+  <h3 class="subsubhead">Problem Set 4: The Caesar Cipher (Due)</h3>
+  <p>This assignment will deal with a well-known (though not very secure) encryption method called the Caesar cipher. In this problem set you will need to devise your own algorithms and will practice using recursion to solve a non-trivial problem.</p>
+  <ul class="arrow">
+    <li>
+      <a href="/static/unit-2/lecture-10-hashing-and-classes/MIT6_00SCS11_ps4.pdf">Instructions (PDF)</a>
+    </li>
+    <li>
+      <a href="/static/unit-2/lecture-10-hashing-and-classes/MIT6_00SCS11_ps4-pseudo.pdf">Pseudocode (PDF)</a>
+    </li>
+    <li><a href="/static/unit-2/lecture-10-hashing-and-classes/ps4.zip">Code Files (ZIP)</a> (This ZIP file contains: 1 .py file and 3 .txt files.)</li>
+    <li><a href="/static/unit-2/lecture-10-hashing-and-classes/ps4_sol.zip">Solutions (ZIP)</a> (This ZIP file contains: 2 .py files.)</li>
+  </ul>
+  <h3 class="subsubhead">Problem Set 5 (Assigned)</h3>
+  <p>Problem set 5 is assigned in this session.&#xA0; The instructions and solutions can be found on the session page where it is due, Lecture 12 <a href="/static/unit-2/lecture-12-introduction-to-simulation-and-random-walks/index.htm">Introduction to Simulation and Random Walks</a>.</p>
+  <h2 class="subhead">Further Study</h2>
+  <p>These optional resources are provided for students that wish to explore this topic more fully.</p>
+  <h3 class="subsubhead">Readings</h3>
+  <p>After watching the lecture, you may want to read some of the following resources:</p>
+  <ul class="arrow">
+    <li><a href="http://www.greenteapress.com/thinkpython/thinkCSpy/html/chap12.html">12. Classes and objects</a>. How to Think Like a Computer Scientist.</li>
+  </ul>
+  <h3 class="subsubhead">Related Lectures</h3>
+  <ul class="arrow">
+    <li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-spring-2008"><em>6.006 Introduction to Algorithms</em></a>. 6.006 lectures assume a greater level of mathematical sophistication than does 6.00SC. Read the lecture notes on:
+    <ul class="arrow"><li>Hashing I: Chaining, hash functions</li><li>Hashing II: Table doubling, Karp-Rabin</li><li>Hashing III: Open addressing</li></ul>
+</li>
+  </ul>
+</html>

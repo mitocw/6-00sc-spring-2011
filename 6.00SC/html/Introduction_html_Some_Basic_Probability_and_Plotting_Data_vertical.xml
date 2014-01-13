@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Photograph of assorted dice." height="100" src="/static/unit-2/lecture-13-some-basic-probability-and-plotting-data/ses-13.jpg" width="100"/>
+        </td>
+        <td>
+          <p>This lecture returns briefly to random walks, and moves on to discuss different views of non-determinism and an introduction to probability. It concludes with examples of using pylab to plot data.</p>
+          <p class="instruction">
+            <em>Image courtesy of <a href="http://www.flickr.com/photos/archaicwarrior/3992002490/">Lonnie Dunn</a> on Flickr.</em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight" href="#?w=535" rel="popup_name1">Lecture 13: Some Basic Probability and Plotting Data</a> (00:42:49)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><script type="text/javascript">
+
+//
+load_multiple_media_chapter('video1','embed1','player1','http://www.youtube.com/v/hGQw3KJ7i6Q', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-13-some-basic-probability-and-plotting-data', 'http://img.youtube.com/vi/hGQw3KJ7i6Q/0.jpg', 0,0, null);
+//
+
+</script><br/><p class="pop_margin_title">Lecture 13: Some Basic Probability and Plotting Data</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-13-some-basic-probability/id499270153?i=110101042" target="_blank">&gt; Download from iTunes U (MP4)</a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec13_300k.mp4" target="_blank">&gt; Download from Internet Archive (MP4)</a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What is a stochastic process?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1" style="margin-left: 35px;">
+    <p>One whose next state depends upon both previous states and some random element.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What makes two events independent?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2" style="margin-left: 35px;">
+    <p>Two events are independent if the outcome of one has no influence on the outcome of the other.</p>
+    <p>&#xA0;</p>
+  </div>
+</html>

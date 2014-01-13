@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<course dirname="6-00sc-spring-2011" semester="2013_Spring" course="6.00SC" name="Introduction to Computer Science and Programming" org="MITx">
+  <chapter url_name="Syllabus_chapter"/>
+  <chapter url_name="Software_chapter"/>
+  <chapter url_name="References_chapter"/>
+  <chapter url_name="Unit_1_chapter"/>
+  <chapter url_name="Unit_2_chapter"/>
+  <chapter url_name="Unit_3_chapter"/>
+</course>

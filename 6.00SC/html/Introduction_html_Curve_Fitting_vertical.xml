@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Diagram of spring under tension." height="100" src="/static/unit-2/lecture-17-curve-fitting/ses-17.jpg" width="100"/>
+        </td>
+        <td>
+          <p>This lecture is about how to use computation to help understand experimental data. It talks about using linear regression to fit a curve to data, and introduces the coefficient of determination as a measure of the tightness of a fit.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video1','embed1','player1','http://www.youtube.com/v/TIQTYgmavC4', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-17-curve-fitting', 'http://img.youtube.com/vi/TIQTYgmavC4/0.jpg', 0,0, null);" rel="popup_name1">Lecture 17: Curve Fitting</a> (00:51:00)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Lecture 17: Curve Fitting</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-17-curve-fitting/id499270153?i=110101049" target="_blank">&gt;Download from iTunes U (MP4) </a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec17_300k.mp4" target="_blank">&gt;Download from Internet Archive (MP4) </a></p></div>
+</li>
+  </ul>
+  <h3 class="subsubhead">Recitation Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video2','embed2','player2','http://www.youtube.com/v/FBKxrPEeCSU', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-17-curve-fitting', 'http://img.youtube.com/vi/FBKxrPEeCSU/0.jpg', 0,0, null);" rel="popup_name2">Recitation 7: Distributions, Monte Carlo, and Regressions</a> (00:47:27)
+    <div class="popup_block" id="popup_name2"><div class="inline-video" id="video2"><div class="attention_message" id="embed2"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Recitation 7: Distributions, Monte Carlo, and Regressions</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/recitation-7-distributions/id499270153?i=110101546" target="_blank">&gt;Download from iTunes U (MP4) </a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_rec07_300k.mp4" target="_blank">&gt;Download from Internet Archive (MP4) </a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What is an objective function?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1" style="margin-left: 35px;">
+    <p>One that provides a quantitative assessment of how well the curve fits the data.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What method of curve fitting is used by polyfit?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2" style="margin-left: 35px;">
+    <p>Linear regression.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What does curve fitting do?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3" style="margin-left: 35px;">
+    <p>Relates an independent variable to an estimated value of a dependent variable.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is the coefficient of determination?</p>
+  <div class="reveal4" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle4" style="margin-left: 35px;">
+    <p>Coefficient of determination, R^2, is equal to 1 &#x2013; (estimated error)/(variance of the actual data)</p>
+    <p>&#xA0;</p>
+  </div>
+</html>

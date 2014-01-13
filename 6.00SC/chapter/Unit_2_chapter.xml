@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<chapter display_name="Unit 2">
+  <sequential url_name="Unit_2_sequential"/>
+  <sequential url_name="Hashing_and_Classes_sequential"/>
+  <sequential url_name="OOP_and_Inheritance_sequential"/>
+  <sequential url_name="Introduction_to_Simulation_and_Random_Walks_sequential"/>
+  <sequential url_name="Some_Basic_Probability_and_Plotting_Data_sequential"/>
+  <sequential url_name="Sampling_and_Monte_Carlo_Simulation_sequential"/>
+  <sequential url_name="Statistical_Thinking_sequential"/>
+  <sequential url_name="Using_Randomness_to_Solve_Non-random_Problems_sequential"/>
+  <sequential url_name="Curve_Fitting_sequential"/>
+  <sequential url_name="Optimization_Problems_and_Algorithms_sequential"/>
+  <sequential url_name="More_Optimization_and_Clustering_sequential"/>
+  <sequential url_name="Quiz_2_sequential"/>
+</chapter>

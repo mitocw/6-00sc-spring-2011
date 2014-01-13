@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Graph showing a movement trail from a random walk simulation." height="100" src="/static/unit-2/lecture-12-introduction-to-simulation-and-random-walks/ses-12.jpg" width="100"/>
+        </td>
+        <td>
+          <p>This lecture completes the introduction of classes by showing a way to implement user-defined iterators. It then discusses simulation models, and illustrates some of the ideas underlying simulations modeling by simulating a random walk.</p>
+          <p class="instruction">
+            <em>Image courtesy of <a href="http://www.flickr.com/photos/donovan_beeson/5792363110/">donovanbeeson</a> on Flickr.</em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video1','embed1','player1','http://www.youtube.com/v/C2BBAW78fYg', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-12-introduction-to-simulation-and-random-walks', 'http://img.youtube.com/vi/C2BBAW78fYg/0.jpg', 0,0, null);" rel="popup_name1">Lecture 12: Introduction to Simulation and Random Walks</a> (00:50:24)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Lecture 12: Introduction to Simulation and Random Walks</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-12-introduction-to/id499270153?i=110101033" target="_blank">&gt;Download from iTunes U (MP4) </a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec12_300k.mp4" target="_blank">&gt;Download from Internet Archive (MP4) </a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What is a generator?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1" style="margin-left: 35px;">
+    <p>A function that remembers the point in the function body where it last returned a value and the values of all local variables.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is the difference between yield and return?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2" style="margin-left: 35px;">
+    <p>When yield is used, the state of the function is not lost.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is a model?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3" style="margin-left: 35px;">
+    <p>A model is a theoretical construct that will provide useful information about the possible behaviors of the system being modeled.</p>
+    <p>&#xA0;</p>
+  </div>
+  <h2 class="subhead">Problem Sets</h2>
+  <h3 class="subsubhead">Problem Set 5: RSS Feed Filter (Due)</h3>
+  <p>In problem set 5, you will build a program to monitor news feeds over the Internet. Your program will filter the news, alerting the user when it notices a news story that matches that user's interests (for example, the user may be interested in a notification whenever a story related to the Red Sox is posted).</p>
+  <ul class="arrow">
+    <li>
+      <a href="/static/unit-2/lecture-12-introduction-to-simulation-and-random-walks/MIT6_00SCS11_ps5.pdf">Instructions (PDF)</a>
+    </li>
+    <li><a href="/static/unit-2/lecture-12-introduction-to-simulation-and-random-walks/ps5.zip">Code Files (ZIP)</a> (This file contains 1 .txt file, 3 .pyc files, and 6 .py files.)</li>
+    <li><a href="/static/unit-2/lecture-12-introduction-to-simulation-and-random-walks/ps5_sol.zip">Solutions (ZIP)</a> (This ZIP file contains: 1 .py file.)</li>
+  </ul>
+  <h3 class="subsubhead">Problem Set 6 (Assigned)</h3>
+  <p>Problem set 6 is assigned in this session. The instructions and solutions can be found on the session page where it is due, Lecture 14 <a href="/static/unit-2/lecture-14-sampling-and-monte-carlo-simulation/index.htm">Sampling and Monte Carlo Simulation</a>.</p>
+</html>

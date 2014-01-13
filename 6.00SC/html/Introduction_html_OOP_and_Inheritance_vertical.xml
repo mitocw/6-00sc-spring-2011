@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<html display_name="Introduction">
+  <h2 class="subhead">Session Overview</h2>
+  <table class="sc_overview">
+    <tbody>
+      <tr>
+        <td>
+          <img alt="Photograph of ink droplets mixing in water." height="100" src="/static/unit-2/lecture-11-oop-and-inheritance/ses-11.jpg" width="100"/>
+        </td>
+        <td>
+          <p>In this lecture, we learn about object-oriented programming (OOP) and how classes are used to implement new types of objects in Python. As part of that discussion we introduce inheritance.</p>
+          <p class="instruction">
+            <em>Image courtesy of <a href="http://www.flickr.com/photos/ridg/4289125796/">The Ridg</a> on Flickr.</em>
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h2 class="subhead">Session Activities</h2>
+  <h3 class="subsubhead">Lecture Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video1','embed1','player1','http://www.youtube.com/v/FBpe3xFvPrQ', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-11-oop-and-inheritance', 'http://img.youtube.com/vi/FBpe3xFvPrQ/0.jpg', 0,0, null);" rel="popup_name1">Lecture 11: OOP and Inheritance</a> (00:49:37)
+    <div class="popup_block" id="popup_name1"><div class="inline-video" id="video1"><div class="attention_message" id="embed1"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Lecture 11: OOP and Inheritance</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/lecture-11-object-oriented/id499270153?i=110101038" target="_blank">&gt; Download from iTunes U (MP4)</a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_lec11_300k.mp4" target="_blank">&gt; Download from Internet Archive (MP4)</a></p></div>
+</li>
+  </ul>
+  <h3 class="subsubhead">Recitation Videos</h3>
+  <ul class="arrow">
+    <li><a class="poplight pagecontainer" href="#?w=535" onclick="scholar_video_popup('video2','embed2','player2','http://www.youtube.com/v/ZFc_utdoexI', 'youtube', '/courses/electrical-engineering-and-computer-science/6-00sc-introduction-to-computer-science-and-programming-spring-2011/unit-2/lecture-11-oop-and-inheritance', 'http://img.youtube.com/vi/ZFc_utdoexI/0.jpg', 0,0, null);" rel="popup_name2">Recitation 5: Quiz 1 Answers and Object-Oriented Programming</a> (00:53:38)
+    <div class="popup_block" id="popup_name2"><div class="inline-video" id="video2"><div class="attention_message" id="embed2"><p>Flash and JavaScript are required for this feature.</p></div></div><br/><p class="pop_margin_title">Recitation 5: Quiz 1 Answers and Object-Oriented Programming</p><p class="pop_margin_link"><a class="poplink" href="http://itunes.apple.com/us/itunes-u/recitation-5-quiz-1-answers/id499270153?i=110101544" target="_blank"> &gt; Download from iTunes U (MP4) </a></p><p class="pop_margin_link"><a class="poplink" href="http://www.archive.org/download/MIT6.00SCS11/MIT6_00SCS11_rec05_300k.mp4" target="_blank"> &gt; Download from Internet Archive (MP4) </a></p></div>
+</li>
+  </ul>
+  <h2 class="subhead">Check Yourself</h2>
+  <p>What is an instance?</p>
+  <div class="reveal1" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle1" style="margin-left: 35px;">
+    <p>Instances are the actual objects built in accordance with the qualities of the class.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is an abstract data type?</p>
+  <div class="reveal2" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle2" style="margin-left: 35px;">
+    <p>A set of objects and the operations on those objects.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is encapsulation?</p>
+  <div class="reveal3" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle3" style="margin-left: 35px;">
+    <p>Encapsulation means that names (of variables and methods) are stored in locations that then have to be accessed, called namespaces.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What is data hiding?</p>
+  <div class="reveal4" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle4" style="margin-left: 35px;">
+    <p>Data hiding makes data invisible to users of the object, requiring it to be accessed only via the object's methods.</p>
+    <p>&#xA0;</p>
+  </div>
+  <p>What functions can subclasses use?</p>
+  <div class="reveal5" style="margin-left: 35px;">
+    <p>&#x203A; <span style="color: #680a12; text-decoration: underline; cursor: pointer;"><em>View/hide answer</em></span></p>
+  </div>
+  <div class="toggle5" style="margin-left: 35px;">
+    <p>Subclasses can use all the functions of their superclass.  They can also use any functions that  are defined within the subclass; however, if the subclass uses the same name for a function which has also been used in the superclass, it will only use the subclass definition of that function.</p>
+    <p>&#xA0;</p>
+  </div>
+</html>
